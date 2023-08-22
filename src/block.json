@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/gutenberg-parallax-bg-image",
+	"version": "1.0",
+	"title": "Gutenberg Parallax Bg Image",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Gutenberg block to add an image with parallax scrolling",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "gutenberg-parallax-bg-image",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js",
+	"attributes": {
+		"imageUrl": {
+			"type": "string",
+			"default": "../assets/default-img.jpg"
+		}
+	}
+}

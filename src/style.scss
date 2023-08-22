@@ -1,0 +1,10 @@
+.wp-block-create-block-gutenberg-parallax-bg-image {
+	max-width: none!important;
+	.sc-plax-bg-img-wrapper {
+		width: 100%;
+		.sc-plax-bg-img {
+			min-height: 400px;		
+			background: transparent;
+		}
+	}
+}
